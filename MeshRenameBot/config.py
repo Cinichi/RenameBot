@@ -4,10 +4,10 @@ try:
     from .tconfig import Config
 except ImportError:
     class Config:
-        DATABASE_URL = [str, ""]
-        API_HASH = [str, "abcdedf......"]
-        API_ID = [int, 1234567]
-        BOT_TOKEN = [str, "bot:token here"]
+        DATABASE_URL = [str, "mongodb+srv://kayden10:kayden10@cluster0.1scmt.mongodb.net/?retryWrites=true&w=majority"]
+        API_HASH = [str, "c6f36f2887586704871201a0fea2e452"]
+        API_ID = [int, 15916448]
+        BOT_TOKEN = [str, "5774804662:AAH9VyaphiayvrFwqElHliHb281zYOzM1GA"]
         COMPLETED_STR = [str, "▰"]
         REMAINING_STR = [str, "▱"]
         MAX_QUEUE_SIZE = [int, 5]
@@ -16,8 +16,8 @@ except ImportError:
 
         # Access Restriction
         IS_PRIVATE = [bool, False]
-        AUTH_USERS = [list,[123456789]]
-        OWNER_ID = [int, 0]
+        AUTH_USERS = [list,[5591954930]]
+        OWNER_ID = [int, 1548388867]
 
         # Public username url or invite link of private chat
         FORCEJOIN = [str,""]
